@@ -10,6 +10,9 @@ using System.Collections.Generic;
 
 namespace webapiBasic.Controller
 {
+    /// <summary>
+    /// 測試用API_Controller
+    /// </summary>
     public class TestController : ApiController
     {
         /// <summary>
