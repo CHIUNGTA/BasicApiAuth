@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>webapiBasic</name>
+    </assembly>
+    <members>
+        <member name="M:webapiBasic.Controller.TestController.Get">
+            <summary>
+            Get測試
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapiBasic.Controller.TestController.Get2">
+            <summary>
+            Get測試2
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapiBasic.Controller.TestController.Come(webapiBasic.Model.PostInfo)">
+            <summary>
+            自我介紹
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapiBasic.Controller.TestController.GetTimeGap(webapiBasic.Model.GetTimeGapInfo)">
+            <summary>
+            取得兩日期區間內所有的日期
+            </summary>
+            <param name="date"></param>
+            <returns>取得日期區間</returns>
+        </member>
+        <member name="M:webapiBasic.Utility.MyTime.EachDay(System.DateTime,System.DateTime)">
+            <summary>
+            回傳時間區間
+            </summary>
+            <param name="from"></param>
+            <param name="thru"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
